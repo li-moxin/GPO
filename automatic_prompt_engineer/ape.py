@@ -235,37 +235,6 @@ def evaluate_prompts(prompts, eval_template, eval_data, demos_template, few_shot
 
     return res
 
-def evaluate_prompts_bard(bard, prompts, eval_template, eval_data, demos_template, few_shot_data, conf,
-                     base_conf='configs/default.yaml'):
-    """
-    Function to evaluate a list of prompts.
-    Parameters:
-        prompts: The list of prompts to evaluate.
-        eval_template: The template for the evaluation queries.
-        eval_data: The data to use for evaluation.
-        eval_method: The evaluation method to use. ('likelihood')
-        conf: The configuration dictionary.
-        base_conf: The base configuration file.
-    Returns:
-        A list of prompts and their scores, sorted by score.
-    """
-
-    conf = config.update_config(conf, base_conf)
-
-    # Generate prompts
-    eval_template = template.EvalTemplate(eval_template)
-    demos_template = template.DemosTemplate(demos_template)
-
-    logging.info('Evaluating prompts...')
-
-    res = evaluate.evalute_prompts_bard(
-        prompts, eval_template, eval_data, demos_template, few_shot_data, conf['evaluation']['method'],
-        conf['evaluation'], bard)
-
-    logging.info('Finished evaluating.')
-
-    return res
-
 def estimate_cost(eval_template,
                   demos_template,
                   prompt_gen_data,
