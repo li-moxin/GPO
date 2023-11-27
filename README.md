@@ -40,7 +40,7 @@ The parameters are source_group, target_group, num_subsamples, num_demos, num_pr
 The logs are saved at `experiments/results`. 
 
 ## Data
-The data we used are stored under `experiments/data/instruction_induction/raw/`. In our experiments, the training and validation instances are *randomly sampled* from the entire original dataset. In this repo, we only keep the data used in our experiments under the this folder, where unused data are saved as None for saving space. 
+The datasets we used are stored under `experiments/data/instruction_induction/raw/`. In our experiments, the training and validation instances are *randomly sampled* from the entire original dataset. In this repo, we only keep the data used in our experiments under the this folder, where unused data are saved as None for saving space. 
 
 ## Contact
 Kindly contact `limoxin@u.nus.edu` for any issue, thank you!
