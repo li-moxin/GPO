@@ -44,7 +44,7 @@ The data we used are stored under `experiments/data/instruction_induction/raw/`.
 Kindly contact `limoxin@u.nus.edu` for any issue, thank you!
 
 ## Reference
-If you find our work useful, kindly use the following citation. Thank you!
+If you find our work useful, kindly add the following citation. Thank you!
 ```
 @inproceedings{
 li2023robust,
