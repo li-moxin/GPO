@@ -31,8 +31,8 @@ python run_gpo.py yelp flipkart 6 6 1 36 0 0.6
 ```
 The parameters are source_group, target_group, num_subsamples, num_demos, num_prompts_per_subsample, eval_num, seed, conf_threshold. 
 
-- `source_group:` see all the data file saved at `experiments/data/instruction_induction/raw/induce/`
-- `target_group:` see all the data file saved at `experiments/data/instruction_induction/raw/execute/`
+- `source_group:` see all the data files at `experiments/data/instruction_induction/raw/induce/`
+- `target_group:` see all the data files at `experiments/data/instruction_induction/raw/execute/`
 - `num_subsamples, num_demos, num_prompts_per_subsample, eval_num:` come from APE. If not assigned, the code will automatically assign the default parameters in the paper. 
 - `seed:` 0~4, for five times average. 
 - `conf_threshold:` the consistency threshold. If not assigned, the code will automatically assign the default value in the paper. 
