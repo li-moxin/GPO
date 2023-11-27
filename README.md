@@ -3,13 +3,11 @@ Code for "Robust Prompt Optimization for Large Language Models Against Distribut
 
 **Nov 27 2023**: Updated GPO codes and data. Our code is based on [APE](https://github.com/keirp/automatic_prompt_engineer/tree/5f8058c041ba271599539069f594f93f92278a1e). We sincerely thank the APE authors!
 
-![image](https://github.com/li-moxin/GPO/blob/main/intro.png)
+<p float="left">
+  <img src="/intro.png" width="450" />
+  <img src="/framework.png" width="500" /> 
+</p>
 
-*Robust Prompt Optimization Problem*
-
-![image](https://github.com/li-moxin/GPO/blob/main/framework.png)
-
-*GPO framework*
 
 ## Setup
 After cloning the project, run the following steps to create the environment. 
