@@ -1,5 +1,5 @@
 # GPO
-Code for "Robust Prompt Optimization for Large Language Models Against Distribution Shifts" in EMNLP 2023. See the paper at [this link](https://arxiv.org/abs/2305.13954). 
+Code for "Robust Prompt Optimization for Large Language Models Against Distribution Shifts" in EMNLP 2023. See the paper at [this link](https://arxiv.org/abs/2305.13954). Check out the PPT in this repo. 
 
 **Nov 27 2023**: Updated GPO code and data. Our code is based on [APE](https://github.com/keirp/automatic_prompt_engineer/tree/5f8058c041ba271599539069f594f93f92278a1e). We sincerely thank the APE authors!
 
